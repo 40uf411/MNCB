@@ -1,0 +1,4 @@
+include docs/README.md
+include docs/user_guide.md
+include docs/developer_guide.md
+recursive-include src/templates *
