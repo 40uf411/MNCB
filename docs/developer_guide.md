@@ -184,8 +184,8 @@ To set up the development environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/MNCB.git
-cd MNCB
+git clone https://github.com/40uf411/MNCB.git
+cd MCNB
 
 # Create a virtual environment
 python -m venv venv

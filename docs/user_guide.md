@@ -18,8 +18,8 @@ To install the Me Need Code-Base:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/MNCB.git
-cd MNCB
+git clone https://github.com/40uf411/MNCB.git
+cd MCNB
 
 # Install the package
 pip install -e .
@@ -30,7 +30,7 @@ pip install -e .
 The simplest way to use the generator is with the default settings:
 
 ```bash
-MNCB --project-name my_app --output-dir ./my_app
+mncb-generator --project-name my_app --output-dir ./my_app
 ```
 
 This will create a new FastAPI application in the `./my_app` directory with the default configuration.
@@ -42,7 +42,7 @@ The Me Need Code-Base provides several configuration options to customize your a
 ### Database Configuration
 
 ```bash
-MNCB \
+mncb-generator \
   --db-name my_database \
   --db-user my_user \
   --db-password my_password \
@@ -53,7 +53,7 @@ MNCB \
 ### Cache Configuration
 
 ```bash
-MNCB \
+mncb-generator \
   --cache-host localhost \
   --cache-port 6379
 ```
@@ -61,7 +61,7 @@ MNCB \
 ### JWT Authentication Configuration
 
 ```bash
-MNCB \
+mncb-generator \
   --jwt-secret my-secret-key \
   --jwt-algorithm HS256 \
   --jwt-expiration 60
@@ -72,7 +72,7 @@ MNCB \
 The interactive mode allows you to define custom models for your application:
 
 ```bash
-MNCB --interactive
+mncb-generator --interactive
 ```
 
 ### Defining Models

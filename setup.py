@@ -7,14 +7,14 @@ with open("docs/README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="MNCB",
+    name="mncb-generator",
     version="0.1.0",
     author="FastAPI Generator Team",
     author_email="author@example.com",
     description="A tool to generate FastAPI applications with PostgreSQL, DragonFlyDB, and JWT OAuth2 authentication",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/MNCB",
+    url="https://github.com/yourusername/mncb-generator",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -53,7 +53,8 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "MNCB=src.main:main",
+            "mncb-generator=src.main:main",
+            "mncb-entity=src.presentation.cli.entity_creator:app",
         ],
     },
     include_package_data=True,

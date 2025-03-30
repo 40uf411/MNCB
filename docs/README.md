@@ -1,5 +1,5 @@
 """
-Documentation for the Me Need Code-Base.
+Hi! Documentation for the Me Need Code-Base.
 """
 
 # Me Need Code-Base
@@ -20,7 +20,7 @@ A command-line tool to generate a FastAPI application with PostgreSQL, DragonFly
 ```bash
 # Clone the repository
 git clone https://github.com/40uf411/MNCB.git
-cd MNCB
+cd MCNB
 
 # Install the package
 pip install -e .
@@ -32,7 +32,7 @@ pip install -e .
 
 ```bash
 # Generate a new FastAPI application
-MNCB --project-name my_app --output-dir ./my_app
+mncb-generator --project-name my_app --output-dir ./my_app
 ```
 
 ### Command-line Options
