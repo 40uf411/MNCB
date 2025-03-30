@@ -1,25 +1,25 @@
-# FastAPI Codebase Generator User Guide
+# Me Need Code-Base User Guide
 
 ## Introduction
 
-The FastAPI Codebase Generator is a powerful tool designed to streamline the development of FastAPI applications following best practices in software architecture. This guide will walk you through the process of using the tool to generate a complete FastAPI application with authentication, database integration, and custom models.
+The Me Need Code-Base is a powerful tool designed to streamline the development of FastAPI applications following best practices in software architecture. This guide will walk you through the process of using the tool to generate a complete FastAPI application with authentication, database integration, and custom models.
 
 ## Getting Started
 
 ### Installation
 
-Before using the FastAPI Codebase Generator, ensure you have the following prerequisites installed:
+Before using the Me Need Code-Base, ensure you have the following prerequisites installed:
 
 - Python 3.8 or higher
 - PostgreSQL
 - DragonFlyDB (or Redis as an alternative)
 
-To install the FastAPI Codebase Generator:
+To install the Me Need Code-Base:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fastapi-generator.git
-cd fastapi-generator
+git clone https://github.com/yourusername/MNCB.git
+cd MNCB
 
 # Install the package
 pip install -e .
@@ -30,19 +30,19 @@ pip install -e .
 The simplest way to use the generator is with the default settings:
 
 ```bash
-fastapi-generator --project-name my_app --output-dir ./my_app
+MNCB --project-name my_app --output-dir ./my_app
 ```
 
 This will create a new FastAPI application in the `./my_app` directory with the default configuration.
 
 ## Configuration Options
 
-The FastAPI Codebase Generator provides several configuration options to customize your application:
+The Me Need Code-Base provides several configuration options to customize your application:
 
 ### Database Configuration
 
 ```bash
-fastapi-generator \
+MNCB \
   --db-name my_database \
   --db-user my_user \
   --db-password my_password \
@@ -53,7 +53,7 @@ fastapi-generator \
 ### Cache Configuration
 
 ```bash
-fastapi-generator \
+MNCB \
   --cache-host localhost \
   --cache-port 6379
 ```
@@ -61,7 +61,7 @@ fastapi-generator \
 ### JWT Authentication Configuration
 
 ```bash
-fastapi-generator \
+MNCB \
   --jwt-secret my-secret-key \
   --jwt-algorithm HS256 \
   --jwt-expiration 60
@@ -72,7 +72,7 @@ fastapi-generator \
 The interactive mode allows you to define custom models for your application:
 
 ```bash
-fastapi-generator --interactive
+MNCB --interactive
 ```
 
 ### Defining Models
@@ -251,4 +251,4 @@ If you encounter authentication issues:
 
 ## Conclusion
 
-The FastAPI Codebase Generator provides a solid foundation for building FastAPI applications following best practices in software architecture. By using this tool, you can quickly set up a new project with authentication, database integration, and custom models, allowing you to focus on implementing your business logic rather than setting up the infrastructure.
+The Me Need Code-Base provides a solid foundation for building FastAPI applications following best practices in software architecture. By using this tool, you can quickly set up a new project with authentication, database integration, and custom models, allowing you to focus on implementing your business logic rather than setting up the infrastructure.

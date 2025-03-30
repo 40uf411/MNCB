@@ -1,15 +1,15 @@
 """
-Developer Guide for the FastAPI Codebase Generator
+Developer Guide for the Me Need Code-Base
 
 This guide provides technical details for developers who want to understand
-or contribute to the FastAPI Codebase Generator.
+or contribute to the Me Need Code-Base.
 """
 
-# FastAPI Codebase Generator - Developer Guide
+# Me Need Code-Base - Developer Guide
 
 ## Project Structure
 
-The FastAPI Codebase Generator follows a modular architecture to separate concerns and make the codebase maintainable:
+The Me Need Code-Base follows a modular architecture to separate concerns and make the codebase maintainable:
 
 ```
 fastapi_generator/
@@ -170,7 +170,7 @@ The generated application includes a testing framework using:
 
 ## Contributing
 
-To contribute to the FastAPI Codebase Generator:
+To contribute to the Me Need Code-Base:
 
 1. Fork the repository
 2. Create a feature branch
@@ -184,8 +184,8 @@ To set up the development environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fastapi-generator.git
-cd fastapi-generator
+git clone https://github.com/yourusername/MNCB.git
+cd MNCB
 
 # Create a virtual environment
 python -m venv venv

@@ -1,5 +1,5 @@
 """
-Setup script for the FastAPI Codebase Generator.
+Setup script for the Me Need Code-Base.
 """
 from setuptools import setup, find_packages
 
@@ -7,14 +7,14 @@ with open("docs/README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="fastapi-generator",
+    name="MNCB",
     version="0.1.0",
     author="FastAPI Generator Team",
     author_email="author@example.com",
     description="A tool to generate FastAPI applications with PostgreSQL, DragonFlyDB, and JWT OAuth2 authentication",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/fastapi-generator",
+    url="https://github.com/yourusername/MNCB",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -53,7 +53,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "fastapi-generator=src.main:main",
+            "MNCB=src.main:main",
         ],
     },
     include_package_data=True,

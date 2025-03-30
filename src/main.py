@@ -1,5 +1,5 @@
 """
-Main entry point for the FastAPI Codebase Generator.
+Main entry point for the Me Need Code-Base.
 """
 import os
 import sys
@@ -12,7 +12,7 @@ from src.presentation.cli.generator import CodebaseGenerator
 from src.presentation.cli.model_input import generate_models
 from src.presentation.cli.crud_input import generate_crud_with_rbac
 
-app = typer.Typer(help="FastAPI Codebase Generator - A tool to generate FastAPI applications with PostgreSQL, DragonFlyDB, and JWT OAuth2 authentication")
+app = typer.Typer(help="Me Need Code-Base - A tool to generate FastAPI applications with PostgreSQL, DragonFlyDB, and JWT OAuth2 authentication")
 
 class DeleteType(str, Enum):
     """Delete type for entities."""
@@ -119,7 +119,7 @@ def generate(
         typer.echo("- See docs/streaming_protocol.md for details on the streaming protocol")
 
 def main():
-    """Main entry point for the FastAPI Codebase Generator."""
+    """Main entry point for the Me Need Code-Base."""
     app()
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 ## Overview
 
-The FastAPI Codebase Generator includes a comprehensive real-time data streaming system that allows entities to be streamed in real-time using WebSockets and message brokers (Kafka or RabbitMQ). This document describes the streaming protocol, error codes, and usage patterns.
+The Me Need Code-Base includes a comprehensive real-time data streaming system that allows entities to be streamed in real-time using WebSockets and message brokers (Kafka or RabbitMQ). This document describes the streaming protocol, error codes, and usage patterns.
 
 ## Architecture
 

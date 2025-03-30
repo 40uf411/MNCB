@@ -1,8 +1,8 @@
 """
-Hi! Documentation for the FastAPI Codebase Generator.
+Documentation for the Me Need Code-Base.
 """
 
-# FastAPI Codebase Generator
+# Me Need Code-Base
 
 A command-line tool to generate a FastAPI application with PostgreSQL, DragonFlyDB, and JWT OAuth2 authentication following onion architecture and domain-driven design principles.
 
@@ -19,8 +19,8 @@ A command-line tool to generate a FastAPI application with PostgreSQL, DragonFly
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/fastapi-generator.git
-cd fastapi-generator
+git clone https://github.com/40uf411/MNCB.git
+cd MNCB
 
 # Install the package
 pip install -e .
@@ -32,7 +32,7 @@ pip install -e .
 
 ```bash
 # Generate a new FastAPI application
-fastapi-generator --project-name my_app --output-dir ./my_app
+MNCB --project-name my_app --output-dir ./my_app
 ```
 
 ### Command-line Options
