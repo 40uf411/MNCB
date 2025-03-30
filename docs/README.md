@@ -1,7 +1,3 @@
-"""
-Documentation for the Me Need Code-Base.
-"""
-
 # Me Need Code-Base
 
 A command-line tool to generate a FastAPI application with PostgreSQL, DragonFlyDB, and JWT OAuth2 authentication following onion architecture and domain-driven design principles.
